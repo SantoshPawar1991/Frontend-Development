@@ -1,0 +1,25 @@
+   body{
+    background-color: aqua;
+   }
+   
+ @media (max-width: 480px) {
+        body{
+            background-color: brown;
+        }
+ }
+
+ @media (min-width: 481px) and (max-width: 1200px) {
+        body{
+            background-color: blue;
+        }
+ }
+ @media (min-width: 1201px) and (max-width: 1600px) {
+        body{
+            background-color: chocolate;
+        }
+ }
+ @media (min-width: 1601px) and (max-width: 2400px) {
+    body{
+        background-color: darkgreen;
+    }
+}

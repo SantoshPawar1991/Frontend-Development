@@ -1,0 +1,18 @@
+.outer {
+  background-color: blue;
+  height: 200px;
+  width: 600px;
+  border: 10px solid purple;
+}
+.yellow-text {
+  color: yellow;
+  padding: 0 0 0 10px;
+}
+.white-text-block {
+  background-color: red;
+  margin: 0 10px 0 10px;
+}
+.white-text-block p {
+  padding: 10px;
+  color: white;
+}

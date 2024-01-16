@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border: 5px solid gold;
+  display: inline-flex;
+  color: white;
+  flex-direction: column;
+}
+
+.container > * {
+    flex-basis: 100px;
+}
+
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+  order: 10;
+}
+.blue {
+  background-color: blue;
+}
+.brown {
+  background-color: brown;
+  order: 20;
+}
+.purple {
+  background-color: purple;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.seagreen {
+  background-color: seagreen;
+}
+.grey {
+  background-color: grey;
+}
+.orange {
+  background-color: orange;
+}
+ 

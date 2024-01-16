@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex; 
+    gap: 10px;
+    background-color: yellow;    
+    padding: 10px;
+}
+p{
+    padding-left: 10px;
+}
+.flex-example{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+ 

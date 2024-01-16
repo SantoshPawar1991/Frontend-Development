@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    gap: 20px;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container > * {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 200px;
+}
+.price{
+   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.plans-quality{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.basic-info{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Sign-up{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
